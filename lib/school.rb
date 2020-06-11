@@ -23,7 +23,7 @@ class School
   def sort
     sort_hash = {}
     roster.each do |a, b|
-      sort_hash[a] = y.sort
+      sort_hash[a] = b.sort
     end
   end
 
