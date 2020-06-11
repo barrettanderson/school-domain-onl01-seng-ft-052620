@@ -18,6 +18,9 @@ class School
         return b
       end
     end
+  end
+
+  def sort
 
   end
 
