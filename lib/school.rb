@@ -2,8 +2,9 @@ require 'pry'
 
 class School
 
-  def initialize(student)
-    @student = student
+  attr_reader :roster
+  def initialize(name)
+    @roster = {}
 
   end
 
